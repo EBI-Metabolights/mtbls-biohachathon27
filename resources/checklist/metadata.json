@@ -1,0 +1,2195 @@
+{
+    "studyProtocolTemplates": {
+        "NMR": {
+            "name": "NMR",
+            "technologyTypeMatchTerms": [
+                "NMR spectroscopy"
+            ],
+            "technologyPlatformMatchTerms": [
+                "Nuclear Magnetic Resonance (NMR)"
+            ],
+            "protocols": [
+                {
+                    "name": "Sample collection",
+                    "parameters": []
+                },
+                {
+                    "name": "Extraction",
+                    "parameters": [
+                        "Extraction Method"
+                    ]
+                },
+                {
+                    "name": "NMR sample",
+                    "parameters": [
+                        "NMR tube type",
+                        "Solvent",
+                        "Sample pH",
+                        "Temperature"
+                    ]
+                },
+                {
+                    "name": "NMR spectroscopy",
+                    "parameters": [
+                        "Instrument",
+                        "NMR Probe",
+                        "Number of transients",
+                        "Pulse sequence name",
+                        "Magnetic field strength"
+                    ]
+                },
+                {
+                    "name": "NMR assay",
+                    "parameters": []
+                },
+                {
+                    "name": "Data transformation",
+                    "parameters": []
+                },
+                {
+                    "name": "Metabolite identification",
+                    "parameters": []
+                }
+            ]
+        },
+        "LC-MS": {
+            "name": "LC-MS",
+            "technologyTypeMatchTerms": [
+                "mass spectrometry"
+            ],
+            "technologyPlatformMatchTerms": [
+                "Liquid Chromatography MS"
+            ],
+            "protocols": [
+                {
+                    "name": "Sample collection",
+                    "parameters": []
+                },
+                {
+                    "name": "Extraction",
+                    "parameters": [
+                        "Post Extraction",
+                        "Derivatization"
+                    ]
+                },
+                {
+                    "name": "Chromatography",
+                    "parameters": [
+                        "Chromatography Instrument",
+                        "Autosampler model",
+                        "Column model",
+                        "Column type",
+                        "Guard column"
+                    ]
+                },
+                {
+                    "name": "Mass spectrometry",
+                    "parameters": [
+                        "Scan polarity",
+                        "Scan m/z range",
+                        "Instrument",
+                        "Ion source",
+                        "Mass analyzer"
+                    ]
+                },
+                {
+                    "name": "Data transformation",
+                    "parameters": []
+                },
+                {
+                    "name": "Metabolite identification",
+                    "parameters": []
+                }
+            ]
+        },
+        "GC-MS": {
+            "name": "GC-MS",
+            "technologyTypeMatchTerms": [
+                "mass spectrometry"
+            ],
+            "technologyPlatformMatchTerms": [
+                "Gas Chromatography MS"
+            ],
+            "protocols": [
+                {
+                    "name": "Sample collection",
+                    "parameters": []
+                },
+                {
+                    "name": "Extraction",
+                    "parameters": [
+                        "Post Extraction",
+                        "Derivatization"
+                    ]
+                },
+                {
+                    "name": "Chromatography",
+                    "parameters": [
+                        "Chromatography Instrument",
+                        "Autosampler model",
+                        "Column model",
+                        "Column type",
+                        "Guard column"
+                    ]
+                },
+                {
+                    "name": "Mass spectrometry",
+                    "parameters": [
+                        "Scan polarity",
+                        "Scan m/z range",
+                        "Instrument",
+                        "Ion source",
+                        "Mass analyzer"
+                    ]
+                },
+                {
+                    "name": "Data transformation",
+                    "parameters": []
+                },
+                {
+                    "name": "Metabolite identification",
+                    "parameters": []
+                }
+            ]
+        }
+    },
+    "assayHeaderTemplates": {
+        "NMR": {
+            "version": "v1.0",
+            "headers": [
+                {
+                    "columnHeader": "Sample Name",
+                    "defaultColumnIndex": 0,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Basic",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Protocol REF",
+                    "defaultColumnIndex": 1,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Protocol",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": "Extraction"
+                },
+                {
+                    "columnHeader": "Parameter Value[Extraction Method]",
+                    "defaultColumnIndex": 2,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Extract Name",
+                    "defaultColumnIndex": 3,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Basic",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Protocol REF",
+                    "defaultColumnIndex": 4,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Protocol",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": "NMR sample"
+                },
+                {
+                    "columnHeader": "Parameter Value[NMR tube type]",
+                    "defaultColumnIndex": 5,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "ONTOLOGY_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Parameter Value[Solvent]",
+                    "defaultColumnIndex": 8,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "ONTOLOGY_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Parameter Value[Sample pH]",
+                    "defaultColumnIndex": 11,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Parameter Value[Temperature]",
+                    "defaultColumnIndex": 12,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "colummnStructure": "SINGLE_COLUMN_AND_UNIT_ONTOLOGY",
+                    "columnPrefix": "Parameter Value",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Labeled Extract Name",
+                    "defaultColumnIndex": 16,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Basic",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Label",
+                    "defaultColumnIndex": 17,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "valueUnitColumn",
+                    "columnPrefix": "",
+                    "colummnStructure": "ONTOLOGY_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Protocol REF",
+                    "defaultColumnIndex": 20,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Protocol",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": "NMR spectroscopy"
+                },
+                {
+                    "columnHeader": "Parameter Value[Instrument]",
+                    "defaultColumnIndex": 21,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "ONTOLOGY_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Parameter Value[NMR Probe]",
+                    "defaultColumnIndex": 24,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "ONTOLOGY_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Parameter Value[Number of transients]",
+                    "defaultColumnIndex": 27,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Parameter Value[Pulse sequence name]",
+                    "defaultColumnIndex": 28,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Parameter Value[Magnetic field strength]",
+                    "defaultColumnIndex": 29,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "colummnStructure": "SINGLE_COLUMN_AND_UNIT_ONTOLOGY",
+                    "columnPrefix": "Parameter Value",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Acquisition Parameter Data File",
+                    "defaultColumnIndex": 33,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "File",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null,
+                    "tags": {
+                        "fileType": "acqu"
+                    }
+                },
+                {
+                    "columnHeader": "Protocol REF",
+                    "defaultColumnIndex": 34,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Protocol",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": "NMR assay"
+                },
+                {
+                    "columnHeader": "NMR Assay Name",
+                    "defaultColumnIndex": 35,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Basic",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Free Induction Decay Data File",
+                    "defaultColumnIndex": 36,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "File",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null,
+                    "tags": {
+                        "fileType": "fid"
+                    }
+                },
+                {
+                    "columnHeader": "Protocol REF",
+                    "defaultColumnIndex": 37,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Protocol",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": "Data transformation"
+                },
+                {
+                    "columnHeader": "Normalization Name",
+                    "defaultColumnIndex": 38,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Basic",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Derived Spectral Data File",
+                    "defaultColumnIndex": 39,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "File",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null,
+                    "tags": {
+                        "fileType": "derived"
+                    }
+                },
+                {
+                    "columnHeader": "Protocol REF",
+                    "defaultColumnIndex": 40,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Protocol",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": "Metabolite identification"
+                },
+                {
+                    "columnHeader": "Data Transformation Name",
+                    "defaultColumnIndex": 41,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Basic",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Metabolite Assignment File",
+                    "defaultColumnIndex": 42,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "File",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null,
+                    "tags": {
+                        "fileType": "metadata_maf"
+                    }
+                }
+            ],
+            "fixedColumnCount": 2
+        },
+        "LC-MS": {
+            "version": "v1.0",
+            "headers": [
+                {
+                    "columnHeader": "Sample Name",
+                    "defaultColumnIndex": 0,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Basic",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Protocol REF",
+                    "defaultColumnIndex": 1,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Protocol",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": "Extraction"
+                },
+                {
+                    "columnHeader": "Parameter Value[Post Extraction]",
+                    "defaultColumnIndex": 2,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Parameter Value[Derivatization]",
+                    "defaultColumnIndex": 3,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Extract Name",
+                    "defaultColumnIndex": 4,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Basic",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Protocol REF",
+                    "defaultColumnIndex": 5,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Protocol",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": "Chromatography"
+                },
+                {
+                    "columnHeader": "Parameter Value[Chromatography Instrument]",
+                    "defaultColumnIndex": 6,
+                    "required": true,
+                    "minLength": 5,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "ONTOLOGY_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": [
+                        "ontology:instrument"
+                    ]
+                },
+                {
+                    "columnHeader": "Parameter Value[Autosampler model]",
+                    "defaultColumnIndex": 9,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Parameter Value[Column model]",
+                    "defaultColumnIndex": 10,
+                    "required": true,
+                    "minLength": 5,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Parameter Value[Column type]",
+                    "defaultColumnIndex": 11,
+                    "required": true,
+                    "minLength": 5,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Parameter Value[Guard column]",
+                    "defaultColumnIndex": 12,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Labeled Extract Name",
+                    "defaultColumnIndex": 13,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Basic",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Label",
+                    "defaultColumnIndex": 14,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "ontologyColumn",
+                    "colummnStructure": "ONTOLOGY_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": {
+                        "termSourceRef": "prioritisedStudyFactorRefSources"
+                    }
+                },
+                {
+                    "columnHeader": "Protocol REF",
+                    "defaultColumnIndex": 17,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Protocol",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": "Mass spectrometry"
+                },
+                {
+                    "columnHeader": "Parameter Value[Scan polarity]",
+                    "defaultColumnIndex": 18,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Parameter Value[Scan m/z range]",
+                    "defaultColumnIndex": 19,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Parameter Value[Instrument]",
+                    "defaultColumnIndex": 20,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "ONTOLOGY_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": [
+                        "ontology:instrument"
+                    ]
+                },
+                {
+                    "columnHeader": "Parameter Value[Ion source]",
+                    "defaultColumnIndex": 23,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "ONTOLOGY_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": [
+                        "ontology:instrument"
+                    ]
+                },
+                {
+                    "columnHeader": "Parameter Value[Mass analyzer]",
+                    "defaultColumnIndex": 26,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "ONTOLOGY_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": [
+                        "ontology:instrument"
+                    ]
+                },
+                {
+                    "columnHeader": "MS Assay Name",
+                    "defaultColumnIndex": 29,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Basic",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Raw Spectral Data File",
+                    "defaultColumnIndex": 30,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "File",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null,
+                    "tags": {
+                        "fileType": "raw"
+                    }
+                },
+                {
+                    "columnHeader": "Protocol REF",
+                    "defaultColumnIndex": 31,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Protocol",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": "Data transformation"
+                },
+                {
+                    "columnHeader": "Normalization Name",
+                    "defaultColumnIndex": 32,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Basic",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Derived Spectral Data File",
+                    "defaultColumnIndex": 33,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "File",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null,
+                    "tags": {
+                        "fileType": "derived"
+                    }
+                },
+                {
+                    "columnHeader": "Protocol REF",
+                    "defaultColumnIndex": 34,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Protocol",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": "Metabolite identification"
+                },
+                {
+                    "columnHeader": "Data Transformation Name",
+                    "defaultColumnIndex": 35,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Basic",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Metabolite Assignment File",
+                    "defaultColumnIndex": 36,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "File",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null,
+                    "tags": {
+                        "fileType": "metadata_maf"
+                    }
+                }
+            ],
+            "fixedColumnCount": 2
+        },
+        "GC-MS": {
+            "version": "v1.0",
+            "headers": [
+                {
+                    "columnHeader": "Sample Name",
+                    "defaultColumnIndex": 0,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Basic",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Protocol REF",
+                    "defaultColumnIndex": 1,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Protocol",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": "Extraction"
+                },
+                {
+                    "columnHeader": "Parameter Value[Post Extraction]",
+                    "defaultColumnIndex": 2,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Parameter Value[Derivatization]",
+                    "defaultColumnIndex": 3,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Extract Name",
+                    "defaultColumnIndex": 4,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Basic",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Protocol REF",
+                    "defaultColumnIndex": 5,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Protocol",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": "Chromatography"
+                },
+                {
+                    "columnHeader": "Parameter Value[Chromatography Instrument]",
+                    "defaultColumnIndex": 6,
+                    "required": true,
+                    "minLength": 5,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "ONTOLOGY_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": [
+                        "ontology:instrument"
+                    ]
+                },
+                {
+                    "columnHeader": "Parameter Value[Autosampler model]",
+                    "defaultColumnIndex": 9,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Parameter Value[Column model]",
+                    "defaultColumnIndex": 10,
+                    "required": true,
+                    "minLength": 5,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Parameter Value[Column type]",
+                    "defaultColumnIndex": 11,
+                    "required": true,
+                    "minLength": 5,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Parameter Value[Guard column]",
+                    "defaultColumnIndex": 12,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Labeled Extract Name",
+                    "defaultColumnIndex": 13,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Basic",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Label",
+                    "defaultColumnIndex": 14,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "ontologyColumn",
+                    "colummnStructure": "ONTOLOGY_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": {
+                        "termSourceRef": "prioritisedStudyFactorRefSources"
+                    }
+                },
+                {
+                    "columnHeader": "Protocol REF",
+                    "defaultColumnIndex": 17,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Protocol",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": "Mass spectrometry"
+                },
+                {
+                    "columnHeader": "Parameter Value[Scan polarity]",
+                    "defaultColumnIndex": 18,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Parameter Value[Scan m/z range]",
+                    "defaultColumnIndex": 19,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Parameter Value[Instrument]",
+                    "defaultColumnIndex": 20,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "ONTOLOGY_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": [
+                        "ontology:instrument"
+                    ]
+                },
+                {
+                    "columnHeader": "Parameter Value[Ion source]",
+                    "defaultColumnIndex": 23,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "ONTOLOGY_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": [
+                        "ontology:instrument"
+                    ]
+                },
+                {
+                    "columnHeader": "Parameter Value[Mass analyzer]",
+                    "defaultColumnIndex": 26,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Parameter",
+                    "columnPrefix": "Parameter Value",
+                    "colummnStructure": "ONTOLOGY_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": [
+                        "ontology:instrument"
+                    ]
+                },
+                {
+                    "columnHeader": "MS Assay Name",
+                    "defaultColumnIndex": 29,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Basic",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Raw Spectral Data File",
+                    "defaultColumnIndex": 30,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "File",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null,
+                    "tags": {
+                        "fileType": "raw"
+                    }
+                },
+                {
+                    "columnHeader": "Protocol REF",
+                    "defaultColumnIndex": 31,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Protocol",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": "Data transformation"
+                },
+                {
+                    "columnHeader": "Normalization Name",
+                    "defaultColumnIndex": 32,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Basic",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Derived Spectral Data File",
+                    "defaultColumnIndex": 33,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "File",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null,
+                    "tags": {
+                        "fileType": "derived"
+                    }
+                },
+                {
+                    "columnHeader": "Protocol REF",
+                    "defaultColumnIndex": 34,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Protocol",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": "Metabolite identification"
+                },
+                {
+                    "columnHeader": "Data Transformation Name",
+                    "defaultColumnIndex": 35,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Basic",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Metabolite Assignment File",
+                    "defaultColumnIndex": 36,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "File",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null,
+                    "tags": {
+                        "fileType": "metadata_maf"
+                    }
+                }
+            ],
+            "fixedColumnCount": 2
+        }
+    },
+    "assignmentFileHeaderTemplates": {
+        "NMR": [
+            {
+                "version": "v1.0",
+                "headers": [
+                    {
+                        "columnHeader": "database_identifier",
+                        "defaultColumnIndex": 0,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "chemical_formula",
+                        "defaultColumnIndex": 1,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "smiles",
+                        "defaultColumnIndex": 2,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "inchi",
+                        "defaultColumnIndex": 3,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "metabolite_identification",
+                        "defaultColumnIndex": 4,
+                        "minLength": 2,
+                        "maxLength": 0,
+                        "required": true,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "chemical_shift",
+                        "defaultColumnIndex": 5,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "multiplicity",
+                        "defaultColumnIndex": 6,
+                        "required": true,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "taxid",
+                        "defaultColumnIndex": 7,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "species",
+                        "defaultColumnIndex": 8,
+                        "required": true,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "database",
+                        "defaultColumnIndex": 9,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "database_version",
+                        "defaultColumnIndex": 10,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "reliability",
+                        "defaultColumnIndex": 11,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "uri",
+                        "defaultColumnIndex": 12,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "search_engine",
+                        "defaultColumnIndex": 13,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "search_engine_score",
+                        "defaultColumnIndex": 14,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "smallmolecule_abundance_sub",
+                        "defaultColumnIndex": 15,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "smallmolecule_abundance_stdev_sub",
+                        "defaultColumnIndex": 16,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "smallmolecule_abundance_std_error_sub",
+                        "defaultColumnIndex": 17,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    }
+                ],
+                "fixedColumnCount": 18
+            }
+        ],
+        "LC-MS": [
+            {
+                "version": "v1.0",
+                "headers": [
+                    {
+                        "columnHeader": "database_identifier",
+                        "defaultColumnIndex": 0,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "chemical_formula",
+                        "defaultColumnIndex": 1,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "smiles",
+                        "defaultColumnIndex": 2,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "inchi",
+                        "defaultColumnIndex": 3,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "metabolite_identification",
+                        "defaultColumnIndex": 4,
+                        "minLength": 2,
+                        "maxLength": 0,
+                        "required": true,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "mass_to_charge",
+                        "defaultColumnIndex": 5,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "fragmentation",
+                        "defaultColumnIndex": 6,
+                        "required": true,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "modifications",
+                        "defaultColumnIndex": 7,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "charge",
+                        "defaultColumnIndex": 8,
+                        "required": true,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "retention_time",
+                        "defaultColumnIndex": 9,
+                        "required": true,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "taxid",
+                        "defaultColumnIndex": 10,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "species",
+                        "defaultColumnIndex": 11,
+                        "required": true,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "database",
+                        "defaultColumnIndex": 12,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "database_version",
+                        "defaultColumnIndex": 13,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "reliability",
+                        "defaultColumnIndex": 14,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "uri",
+                        "defaultColumnIndex": 15,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "search_engine",
+                        "defaultColumnIndex": 16,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "search_engine_score",
+                        "defaultColumnIndex": 17,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "smallmolecule_abundance_sub",
+                        "defaultColumnIndex": 18,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "smallmolecule_abundance_stdev_sub",
+                        "defaultColumnIndex": 19,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "smallmolecule_abundance_std_error_sub",
+                        "defaultColumnIndex": 20,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    }
+                ],
+                "fixedColumnCount": 21
+            }
+        ],
+        "GC-MS": [
+            {
+                "version": "v1.0",
+                "headers": [
+                    {
+                        "columnHeader": "database_identifier",
+                        "defaultColumnIndex": 0,
+                        "required": true,
+                        "minLength": 1,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "chemical_formula",
+                        "defaultColumnIndex": 1,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "smiles",
+                        "defaultColumnIndex": 2,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "inchi",
+                        "defaultColumnIndex": 3,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "metabolite_identification",
+                        "defaultColumnIndex": 4,
+                        "minLength": 2,
+                        "maxLength": 0,
+                        "required": true,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "mass_to_charge",
+                        "defaultColumnIndex": 5,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "fragmentation",
+                        "defaultColumnIndex": 6,
+                        "required": true,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "modifications",
+                        "defaultColumnIndex": 7,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "charge",
+                        "defaultColumnIndex": 8,
+                        "required": true,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "retention_time",
+                        "defaultColumnIndex": 9,
+                        "required": true,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "taxid",
+                        "defaultColumnIndex": 10,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "species",
+                        "defaultColumnIndex": 11,
+                        "required": true,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "database",
+                        "defaultColumnIndex": 12,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "database_version",
+                        "defaultColumnIndex": 13,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "reliability",
+                        "defaultColumnIndex": 14,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "uri",
+                        "defaultColumnIndex": 15,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "search_engine",
+                        "defaultColumnIndex": 16,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "search_engine_score",
+                        "defaultColumnIndex": 17,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "smallmolecule_abundance_sub",
+                        "defaultColumnIndex": 18,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "smallmolecule_abundance_stdev_sub",
+                        "defaultColumnIndex": 19,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    },
+                    {
+                        "columnHeader": "smallmolecule_abundance_std_error_sub",
+                        "defaultColumnIndex": 20,
+                        "required": true,
+                        "minLength": 0,
+                        "maxLength": 0,
+                        "columnCategory": "Basic",
+                        "columnPrefix": "",
+                        "colummnStructure": "SIMPLE_COLUMN",
+                        "defaultValue": null,
+                        "controlLists": null
+                    }
+                ],
+                "fixedColumnCount": 21
+            }
+        ]
+    },
+    "sampleHeaderTemplates": [
+        {
+            "version": "v1.0",
+            "headers": [
+                {
+                    "columnHeader": "Source Name",
+                    "defaultColumnIndex": 0,
+                    "required": true,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Basic",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Characteristics[Organism]",
+                    "defaultColumnIndex": 1,
+                    "required": true,
+                    "minLength": 5,
+                    "maxLength": 0,
+                    "columnCategory": "Characteristics",
+                    "columnPrefix": "Characteristics",
+                    "colummnStructure": "ONTOLOGY_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": {
+                        "termSourceRef": "prioritisedOrganismTermRefSources"
+                    }
+                },
+                {
+                    "columnHeader": "Characteristics[Organism part]",
+                    "defaultColumnIndex": 4,
+                    "required": true,
+                    "minLength": 3,
+                    "maxLength": 0,
+                    "columnCategory": "Characteristics",
+                    "columnPrefix": "Characteristics",
+                    "colummnStructure": "ONTOLOGY_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": {
+                        "termSourceRef": "prioritisedOrganismPartTermRefSources"
+                    }
+                },
+                {
+                    "columnHeader": "Characteristics[Variant]",
+                    "defaultColumnIndex": 7,
+                    "required": false,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Characteristics",
+                    "columnPrefix": "Characteristics",
+                    "colummnStructure": "ONTOLOGY_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Characteristics[Sample type]",
+                    "defaultColumnIndex": 10,
+                    "required": false,
+                    "minLength": 0,
+                    "maxLength": 0,
+                    "columnCategory": "Characteristics",
+                    "columnPrefix": "Characteristics",
+                    "colummnStructure": "ONTOLOGY_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                },
+                {
+                    "columnHeader": "Protocol REF",
+                    "defaultColumnIndex": 13,
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 0,
+                    "columnCategory": "Protocol",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": "Sample collection"
+                },
+                {
+                    "columnHeader": "Sample Name",
+                    "defaultColumnIndex": 14,
+                    "required": true,
+                    "minLength": 3,
+                    "maxLength": 63,
+                    "columnCategory": "Basic",
+                    "columnPrefix": "",
+                    "colummnStructure": "SIMPLE_COLUMN",
+                    "defaultValue": null,
+                    "controlLists": null
+                }
+            ],
+            "fixedColumnCount": 19
+        }
+    ],
+    "additionalColumnTemplates": {
+        "ADDITIONAL_COLUMN": [],
+        "INVALID_MULTI_COLUMN": [],
+        "SIMPLE_COLUMN": [],
+        "ONTOLOGY_COLUMN": [
+            "Term Source REF",
+            "Term Accession Number"
+        ],
+        "SINGLE_COLUMN_AND_UNIT_ONTOLOGY": [
+            "Unit",
+            "Term Source REF",
+            "Term Accession Number"
+        ]
+    },
+    "constants": {
+        "investigationFileName": "i_Investigation.txt",
+        "nonPrintableChars": [
+            "\u0000-\u0008",
+            "\u000E-\u001F",
+            "\u007F-\u009F",
+            "\u2000-\u200F",
+            "\u2028-\u202F",
+            "\u205F-\u206F",
+            "\u3000\uFEFF"
+        ],
+        "allowedChars": [
+            " -~",
+            "\u00A1-\u00FF",
+            "\u2013-\u2015",
+            "\u2017-\u2019",
+            "\u201A-\u201E",
+            "\u2020\u2022",
+            "\u2032\u2033",
+            "\u2039",
+            "\u203A",
+            "\u203E",
+            "\u2044",
+            "\u204A",
+            "\u2200-\u22FF"
+        ],
+        "invalidOrganismTermsForHomoSapiens": [
+            "human",
+            "man"
+        ],
+        "invalidOrganismTerms": [
+            "cat",
+            "dog",
+            "mouse",
+            "horse",
+            "flower",
+            "fish",
+            "leave",
+            "root",
+            "mice",
+            "steam",
+            "bacteria",
+            "value",
+            "food",
+            "matrix",
+            "mus",
+            "rat",
+            "blood",
+            "urine",
+            "plasma",
+            "hair",
+            "fur",
+            "skin",
+            "saliva",
+            "fly",
+            "unknown",
+            "undefined",
+            "n/a"
+        ],
+        "emptyFileExceptions": [
+            "tempbase",
+            "synchelper",
+            "_chroms.inf",
+            "msmasscal.bin",
+            "tcc_1.xml",
+            "msactualdefs.xml",
+            "msprofile.bin",
+            "format.temp",
+            "tempbase",
+            "prosol_history",
+            "title"
+        ]
+
+    },
+    "controlLists": {
+        "studyDesignDescriptorRefSources": [
+            "MTBLS",
+            "EFO",
+            "MESH",
+            "BTO",
+            "CHEBI",
+            "CHMO",
+            "NCIT",
+            "PO"
+        ],
+        "prioritisedStudyFactorRefSources": [
+            "MTBLS",
+            "EFO",
+            "MESH",
+            "BTO",
+            "CHEBI",
+            "CHMO",
+            "NCIT",
+            "PO"
+        ],
+        "publicationStatusTerms": [
+            "Published",
+            "Draft",
+            "In Preperation",
+            "Preprint"
+        ],
+        "publicationStatusRefSources": [
+            "EFO"
+        ],
+        "prioritisedOrganismTermRefSources": [
+            "MTBLS",
+            "NCBITAXON",
+            "WoRMs",
+            "EFO",
+            "BTO",
+            "NCIT",
+            "CHEBI",
+            "CHMO",
+            "PO"
+        ],
+        "prioritisedOrganismPartTermRefSources": [
+            "MTBLS",
+            "BTO",
+            "EFO",
+            "PO",
+            "CHEBI",
+            "BAO"
+        ],
+        "prioritisedUnitTermRefSources": [
+            "UO",
+            "MTBLS"
+        ],
+        "prioritisedDefaultTermRefSources": [
+            "MTBLS",
+            "EFO",
+            "NCBITAXON",
+            "BTO",
+            "CHEBI",
+            "CHMO",
+            "NCIT",
+            "PO",
+            "UO"
+        ],
+        "rawFileExtensions": [
+            ".raw",
+            ".d",
+            ".raw.zip",
+            ".d.zip",
+            ".idb",
+            ".cdf",
+            ".wiff",
+            ".scan",
+            ".dat",
+            ".cmp",
+            ".cdf.cmp",
+            ".lcd",
+            ".abf",
+            ".jpf",
+            ".xps",
+            ".mgf",
+            ".qgd",
+            ".hr"
+        ],
+        "derivedFileExtensions": [
+            ".mzml",
+            ".imzml",
+            ".wiff",
+            ".nmrml",
+            ".mzxml",
+            ".xml",
+            ".mzdata",
+            ".cef",
+            ".cnx",
+            ".peakml",
+            ".xy",
+            "smp",
+            ".scan",
+            ".dx",
+            ".msp",
+            ".xlsx",
+            ".cdf",
+            ".mgf",
+            ".zip"
+        ]
+    }
+}
