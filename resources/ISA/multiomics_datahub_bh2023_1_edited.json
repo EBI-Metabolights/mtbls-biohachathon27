@@ -1,0 +1,2052 @@
+{
+    "identifier": "",
+    "title": "Investigation 1",
+    "description": "",
+    "submissionDate": "",
+    "publicReleaseDate": "",
+    "ontologySourceReferences": [
+        {
+            "name": "efo",
+            "file": "",
+            "version": "",
+            "description": ""
+        }
+    ],
+    "filename": "Investigation 1.txt",
+    "comments": [
+        {
+            "name": "ISAjson export time",
+            "value": "2023-10-18T16:09:14Z"
+        },
+        {
+            "name": "SEEK Project name",
+            "value": "Multi-omics ISA-JSON for BH2023"
+        },
+        {
+            "name": "SEEK Project ID",
+            "value": "http://localhost:3000/single_pages/23"
+        },
+        {
+            "name": "SEEK Investigation ID",
+            "value": "26"
+        }
+    ],
+    "publications": [],
+    "people": [
+        {
+            "@id": "#people/3",
+            "lastName": "D'Anna",
+            "firstName": "Flora",
+            "midInitials": "",
+            "email": "flora.danna@psb.ugent.be",
+            "phone": "",
+            "fax": "",
+            "address": "",
+            "affiliation": "",
+            "roles": [
+                {
+                    "termAccession": "",
+                    "termSource": "",
+                    "annotationValue": ""
+                }
+            ],
+            "comments": [
+                {
+                    "@id": "",
+                    "value": "",
+                    "name": ""
+                }
+            ]
+        }
+    ],
+    "studies": [
+        {
+            "identifier": "",
+            "title": "Study 1",
+            "description": "Study 1 in Investigation 1",
+            "submissionDate": "",
+            "publicReleaseDate": "",
+            "filename": "Study 1.txt",
+            "comments": [
+                {
+                    "@id": "#study_comment/24_9b2eb050-4ffe-013c-6743-7a163e608de1",
+                    "name": "SEEK Study ID",
+                    "value": "24"
+                },
+                {
+                    "@id": "#study_comment/24_9b2eb800-4ffe-013c-6744-7a163e608de1",
+                    "name": "SEEK creation date",
+                    "value": "2023-10-18T14:40:34Z"
+                }
+            ],
+            "publications": [],
+            "people": [
+                {
+                    "@id": "#people/3",
+                    "lastName": "D'Anna",
+                    "firstName": "Flora",
+                    "midInitials": "",
+                    "email": "flora.danna@psb.ugent.be",
+                    "phone": "",
+                    "fax": "",
+                    "address": "",
+                    "affiliation": "",
+                    "roles": [
+                        {
+                            "termAccession": "",
+                            "termSource": "",
+                            "annotationValue": ""
+                        }
+                    ],
+                    "comments": [
+                        {
+                            "@id": "",
+                            "value": "",
+                            "name": ""
+                        }
+                    ]
+                }
+            ],
+            "studyDesignDescriptors": [],
+            "characteristicCategories": [
+                {
+                    "@id": "#characteristic_category/organism_569",
+                    "characteristicType": {
+                        "annotationValue": "organism",
+                        "termAccession": "http://purl.obolibrary.org/obo/OBI_0100026",
+                        "termSource": "efo"
+                    }
+                },
+                {
+                    "@id": "#characteristic_category/organism_part_570",
+                    "characteristicType": {
+                        "annotationValue": "organism part",
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000635",
+                        "termSource": "efo"
+                    }
+                },
+                {
+                    "@id": "#characteristic_category/developmental_stage_571",
+                    "characteristicType": {
+                        "annotationValue": "developmental stage",
+                        "termAccession": "http://www.ebi.ac.uk/efo/EFO_0000399",
+                        "termSource": "efo"
+                    }
+                },
+                {
+                    "@id": "#characteristic_category/material_type_572",
+                    "characteristicType": {
+                        "annotationValue": "material type",
+                        "termAccession": "",
+                        "termSource": ""
+                    }
+                },
+                {
+                    "@id": "#characteristic_category/species_573",
+                    "characteristicType": {
+                        "annotationValue": "species",
+                        "termAccession": "",
+                        "termSource": ""
+                    }
+                },
+                {
+                    "@id": "#characteristic_category/optional_attribute_1_584",
+                    "characteristicType": {
+                        "annotationValue": "optional attribute 1",
+                        "termAccession": "",
+                        "termSource": ""
+                    }
+                },
+                {
+                    "@id": "#characteristic_category/material_type_578",
+                    "characteristicType": {
+                        "annotationValue": "material type",
+                        "termAccession": "",
+                        "termSource": ""
+                    }
+                },
+                {
+                    "@id": "#characteristic_category/collection_date_579",
+                    "characteristicType": {
+                        "annotationValue": "collection date",
+                        "termAccession": "",
+                        "termSource": ""
+                    }
+                },
+                {
+                    "@id": "#characteristic_category/geographic_location_(country_and/or_sea)_580",
+                    "characteristicType": {
+                        "annotationValue": "geographic location (country and/or sea)",
+                        "termAccession": "",
+                        "termSource": ""
+                    }
+                },
+                {
+                    "@id": "#characteristic_category/optional_attribute_2_585",
+                    "characteristicType": {
+                        "annotationValue": "optional attribute 2",
+                        "termAccession": "",
+                        "termSource": ""
+                    }
+                }
+            ],
+            "materials": {
+                "sources": [
+                    {
+                        "@id": "#source/209",
+                        "name": "Source 1",
+                        "characteristics": [
+                            {
+                                "category": {
+                                    "@id": "#characteristic_category/organism_569"
+                                },
+                                "value": {
+                                    "annotationValue": "Mus musculus",
+                                    "termSource": "efo",
+                                    "termAccession": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+                                },
+                                "unit": {
+                                    "termSource": "",
+                                    "termAccession": "",
+                                    "comments": []
+                                }
+                            },
+                            {
+                                "category": {
+                                    "@id": "#characteristic_category/organism_part_570"
+                                },
+                                "value": {
+                                    "annotationValue": "liver",
+                                    "termSource": "efo",
+                                    "termAccession": "http://purl.obolibrary.org/obo/UBERON_0002107"
+                                },
+                                "unit": {
+                                    "termSource": "",
+                                    "termAccession": "",
+                                    "comments": []
+                                }
+                            },
+                            {
+                                "category": {
+                                    "@id": "#characteristic_category/developmental_stage_571"
+                                },
+                                "value": {
+                                    "annotationValue": "adult",
+                                    "termSource": "efo",
+                                    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001272"
+                                },
+                                "unit": {
+                                    "termSource": "",
+                                    "termAccession": "",
+                                    "comments": []
+                                }
+                            },
+                            {
+                                "category": {
+                                    "@id": "#characteristic_category/material_type_572"
+                                },
+                                "value": {
+                                    "annotationValue": "organism part",
+                                    "termSource": "",
+                                    "termAccession": ""
+                                },
+                                "unit": {
+                                    "termSource": "",
+                                    "termAccession": "",
+                                    "comments": []
+                                }
+                            },
+                            {
+                                "category": {
+                                    "@id": "#characteristic_category/species_573"
+                                },
+                                "value": {
+                                    "annotationValue": "mus musculus",
+                                    "termSource": "",
+                                    "termAccession": ""
+                                },
+                                "unit": {
+                                    "termSource": "",
+                                    "termAccession": "",
+                                    "comments": []
+                                }
+                            },
+                            {
+                                "category": {
+                                    "@id": "#characteristic_category/optional_attribute_1_584"
+                                },
+                                "value": {
+                                    "annotationValue": "",
+                                    "termSource": "",
+                                    "termAccession": ""
+                                },
+                                "unit": {
+                                    "termSource": "",
+                                    "termAccession": "",
+                                    "comments": []
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "samples": [
+                    {
+                        "@id": "#sample/210",
+                        "name": "liver 1A",
+                        "derivesFrom": [
+                            {
+                                "@id": "#source/209"
+                            }
+                        ],
+                        "characteristics": [
+                            {
+                                "category": {
+                                    "@id": "#characteristic_category/material_type_578"
+                                },
+                                "value": {
+                                    "annotationValue": "organism part",
+                                    "termSource": "",
+                                    "termAccession": ""
+                                },
+                                "unit": {
+                                    "termSource": "",
+                                    "termAccession": "",
+                                    "comments": []
+                                }
+                            },
+                            {
+                                "category": {
+                                    "@id": "#characteristic_category/collection_date_579"
+                                },
+                                "value": {
+                                    "annotationValue": "2023-10-18",
+                                    "termSource": "",
+                                    "termAccession": ""
+                                },
+                                "unit": {
+                                    "termSource": "",
+                                    "termAccession": "",
+                                    "comments": []
+                                }
+                            },
+                            {
+                                "category": {
+                                    "@id": "#characteristic_category/geographic_location_(country_and/or_sea)_580"
+                                },
+                                "value": {
+                                    "annotationValue": "Belgium",
+                                    "termSource": "",
+                                    "termAccession": ""
+                                },
+                                "unit": {
+                                    "termSource": "",
+                                    "termAccession": "",
+                                    "comments": []
+                                }
+                            },
+                            {
+                                "category": {
+                                    "@id": "#characteristic_category/optional_attribute_2_585"
+                                },
+                                "value": {
+                                    "annotationValue": "",
+                                    "termSource": "",
+                                    "termAccession": ""
+                                },
+                                "unit": {
+                                    "termSource": "",
+                                    "termAccession": "",
+                                    "comments": []
+                                }
+                            }
+                        ],
+                        "factorValues": [
+                            {
+                                "category": {
+                                    "@id": ""
+                                },
+                                "value": {
+                                    "annotationValue": "",
+                                    "termSource": "",
+                                    "termAccession": ""
+                                },
+                                "unit": {
+                                    "termSource": "",
+                                    "termAccession": "",
+                                    "comments": []
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "@id": "#sample/211",
+                        "name": "liver 1B",
+                        "derivesFrom": [
+                            {
+                                "@id": "#source/209"
+                            }
+                        ],
+                        "characteristics": [
+                            {
+                                "category": {
+                                    "@id": "#characteristic_category/material_type_578"
+                                },
+                                "value": {
+                                    "annotationValue": "organism part",
+                                    "termSource": "",
+                                    "termAccession": ""
+                                },
+                                "unit": {
+                                    "termSource": "",
+                                    "termAccession": "",
+                                    "comments": []
+                                }
+                            },
+                            {
+                                "category": {
+                                    "@id": "#characteristic_category/collection_date_579"
+                                },
+                                "value": {
+                                    "annotationValue": "2023-10-18",
+                                    "termSource": "",
+                                    "termAccession": ""
+                                },
+                                "unit": {
+                                    "termSource": "",
+                                    "termAccession": "",
+                                    "comments": []
+                                }
+                            },
+                            {
+                                "category": {
+                                    "@id": "#characteristic_category/geographic_location_(country_and/or_sea)_580"
+                                },
+                                "value": {
+                                    "annotationValue": "Belgium",
+                                    "termSource": "",
+                                    "termAccession": ""
+                                },
+                                "unit": {
+                                    "termSource": "",
+                                    "termAccession": "",
+                                    "comments": []
+                                }
+                            },
+                            {
+                                "category": {
+                                    "@id": "#characteristic_category/optional_attribute_2_585"
+                                },
+                                "value": {
+                                    "annotationValue": "",
+                                    "termSource": "",
+                                    "termAccession": ""
+                                },
+                                "unit": {
+                                    "termSource": "",
+                                    "termAccession": "",
+                                    "comments": []
+                                }
+                            }
+                        ],
+                        "factorValues": [
+                            {
+                                "category": {
+                                    "@id": ""
+                                },
+                                "value": {
+                                    "annotationValue": "",
+                                    "termSource": "",
+                                    "termAccession": ""
+                                },
+                                "unit": {
+                                    "termSource": "",
+                                    "termAccession": "",
+                                    "comments": []
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "@id": "#sample/212",
+                        "name": "liver 1C",
+                        "derivesFrom": [
+                            {
+                                "@id": "#source/209"
+                            }
+                        ],
+                        "characteristics": [
+                            {
+                                "category": {
+                                    "@id": "#characteristic_category/material_type_578"
+                                },
+                                "value": {
+                                    "annotationValue": "organism part",
+                                    "termSource": "",
+                                    "termAccession": ""
+                                },
+                                "unit": {
+                                    "termSource": "",
+                                    "termAccession": "",
+                                    "comments": []
+                                }
+                            },
+                            {
+                                "category": {
+                                    "@id": "#characteristic_category/collection_date_579"
+                                },
+                                "value": {
+                                    "annotationValue": "2023-10-18",
+                                    "termSource": "",
+                                    "termAccession": ""
+                                },
+                                "unit": {
+                                    "termSource": "",
+                                    "termAccession": "",
+                                    "comments": []
+                                }
+                            },
+                            {
+                                "category": {
+                                    "@id": "#characteristic_category/geographic_location_(country_and/or_sea)_580"
+                                },
+                                "value": {
+                                    "annotationValue": "Belgium",
+                                    "termSource": "",
+                                    "termAccession": ""
+                                },
+                                "unit": {
+                                    "termSource": "",
+                                    "termAccession": "",
+                                    "comments": []
+                                }
+                            },
+                            {
+                                "category": {
+                                    "@id": "#characteristic_category/optional_attribute_2_585"
+                                },
+                                "value": {
+                                    "annotationValue": "",
+                                    "termSource": "",
+                                    "termAccession": ""
+                                },
+                                "unit": {
+                                    "termSource": "",
+                                    "termAccession": "",
+                                    "comments": []
+                                }
+                            }
+                        ],
+                        "factorValues": [
+                            {
+                                "category": {
+                                    "@id": ""
+                                },
+                                "value": {
+                                    "annotationValue": "",
+                                    "termSource": "",
+                                    "termAccession": ""
+                                },
+                                "unit": {
+                                    "termSource": "",
+                                    "termAccession": "",
+                                    "comments": []
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "protocols": [
+                {
+                    "@id": "#protocol/3_24",
+                    "name": "sample collection",
+                    "protocolType": {
+                        "annotationValue": "sample collection",
+                        "termAccession": "",
+                        "termSource": ""
+                    },
+                    "description": "This SOP describes a recipe how to make chocolate chip cookies.",
+                    "uri": "",
+                    "version": "",
+                    "parameters": [],
+                    "components": [
+                        {
+                            "componentName": "",
+                            "componentType": {
+                                "annotationValue": "",
+                                "termSource": "",
+                                "termAccession": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "#protocol/3_39",
+                    "name": "nucleic acid extraction",
+                    "protocolType": {
+                        "annotationValue": "nucleic acid extraction",
+                        "termAccession": "",
+                        "termSource": ""
+                    },
+                    "description": "This SOP describes a recipe how to make chocolate chip cookies.",
+                    "uri": "",
+                    "version": "",
+                    "parameters": [],
+                    "components": [
+                        {
+                            "componentName": "",
+                            "componentType": {
+                                "annotationValue": "",
+                                "termSource": "",
+                                "termAccession": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "#protocol/3_40",
+                    "name": "library construction",
+                    "protocolType": {
+                        "annotationValue": "library construction",
+                        "termAccession": "",
+                        "termSource": ""
+                    },
+                    "description": "This SOP describes a recipe how to make chocolate chip cookies.",
+                    "uri": "",
+                    "version": "",
+                    "parameters": [
+                        {
+                            "@id": "#parameter/592",
+                            "parameterName": {
+                                "annotationValue": "library_construction_protocol",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        },
+                        {
+                            "@id": "#parameter/594",
+                            "parameterName": {
+                                "annotationValue": "design_description",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        },
+                        {
+                            "@id": "#parameter/596",
+                            "parameterName": {
+                                "annotationValue": "library_source",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        },
+                        {
+                            "@id": "#parameter/597",
+                            "parameterName": {
+                                "annotationValue": "library_strategy",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        },
+                        {
+                            "@id": "#parameter/598",
+                            "parameterName": {
+                                "annotationValue": "library_selection",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        },
+                        {
+                            "@id": "#parameter/599",
+                            "parameterName": {
+                                "annotationValue": "library_layout",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        },
+                        {
+                            "@id": "#parameter/600",
+                            "parameterName": {
+                                "annotationValue": "insert_size",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        },
+                        {
+                            "@id": "#parameter/601",
+                            "parameterName": {
+                                "annotationValue": "platform",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        },
+                        {
+                            "@id": "#parameter/602",
+                            "parameterName": {
+                                "annotationValue": "instrument_model",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        }
+                    ],
+                    "components": [
+                        {
+                            "componentName": "",
+                            "componentType": {
+                                "annotationValue": "",
+                                "termSource": "",
+                                "termAccession": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "#protocol/3_41",
+                    "name": "nucleic acid sequencing",
+                    "protocolType": {
+                        "annotationValue": "nucleic acid sequencing",
+                        "termAccession": "",
+                        "termSource": ""
+                    },
+                    "description": "This SOP describes a recipe how to make chocolate chip cookies.",
+                    "uri": "",
+                    "version": "",
+                    "parameters": [
+                        {
+                            "@id": "#parameter/608",
+                            "parameterName": {
+                                "annotationValue": "sequencing instrument",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        }
+                    ],
+                    "components": [
+                        {
+                            "componentName": "",
+                            "componentType": {
+                                "annotationValue": "",
+                                "termSource": "",
+                                "termAccession": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "#protocol/3_42",
+                    "name": "nucleic acid extraction",
+                    "protocolType": {
+                        "annotationValue": "nucleic acid extraction",
+                        "termAccession": "",
+                        "termSource": ""
+                    },
+                    "description": "This SOP describes a recipe how to make chocolate chip cookies.",
+                    "uri": "",
+                    "version": "",
+                    "parameters": [],
+                    "components": [
+                        {
+                            "componentName": "",
+                            "componentType": {
+                                "annotationValue": "",
+                                "termSource": "",
+                                "termAccession": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "#protocol/3_43",
+                    "name": "library construction",
+                    "protocolType": {
+                        "annotationValue": "library construction",
+                        "termAccession": "",
+                        "termSource": ""
+                    },
+                    "description": "This SOP describes a recipe how to make chocolate chip cookies.",
+                    "uri": "",
+                    "version": "",
+                    "parameters": [
+                        {
+                            "@id": "#parameter/621",
+                            "parameterName": {
+                                "annotationValue": "library source",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        },
+                        {
+                            "@id": "#parameter/622",
+                            "parameterName": {
+                                "annotationValue": "library strategy",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        },
+                        {
+                            "@id": "#parameter/623",
+                            "parameterName": {
+                                "annotationValue": "library selection",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        },
+                        {
+                            "@id": "#parameter/624",
+                            "parameterName": {
+                                "annotationValue": "library layout",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        },
+                        {
+                            "@id": "#parameter/625",
+                            "parameterName": {
+                                "annotationValue": "library strand",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        },
+                        {
+                            "@id": "#parameter/626",
+                            "parameterName": {
+                                "annotationValue": "orientation",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        }
+                    ],
+                    "components": [
+                        {
+                            "componentName": "",
+                            "componentType": {
+                                "annotationValue": "",
+                                "termSource": "",
+                                "termAccession": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "#protocol/3_44",
+                    "name": "nucleic acid sequencing",
+                    "protocolType": {
+                        "annotationValue": "nucleic acid sequencing",
+                        "termAccession": "",
+                        "termSource": ""
+                    },
+                    "description": "This SOP describes a recipe how to make chocolate chip cookies.",
+                    "uri": "",
+                    "version": "",
+                    "parameters": [
+                        {
+                            "@id": "#parameter/630",
+                            "parameterName": {
+                                "annotationValue": "sequencing instrument",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        },
+                        {
+                            "@id": "#parameter/631",
+                            "parameterName": {
+                                "annotationValue": "quality scorer",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        },
+                        {
+                            "@id": "#parameter/632",
+                            "parameterName": {
+                                "annotationValue": "base caller",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        }
+                    ],
+                    "components": [
+                        {
+                            "componentName": "",
+                            "componentType": {
+                                "annotationValue": "",
+                                "termSource": "",
+                                "termAccession": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "#protocol/3_45",
+                    "name": "Extraction",
+                    "protocolType": {
+                        "annotationValue": "Extraction",
+                        "termAccession": "",
+                        "termSource": ""
+                    },
+                    "description": "This SOP describes a recipe how to make chocolate chip cookies.",
+                    "uri": "",
+                    "version": "",
+                    "parameters": [
+                        {
+                            "@id": "#parameter/638",
+                            "parameterName": {
+                                "annotationValue": "Derivatization",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        }
+                    ],
+                    "components": [
+                        {
+                            "componentName": "",
+                            "componentType": {
+                                "annotationValue": "",
+                                "termSource": "",
+                                "termAccession": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "#protocol/3_46",
+                    "name": "Chromatography",
+                    "protocolType": {
+                        "annotationValue": "Chromatography",
+                        "termAccession": "",
+                        "termSource": ""
+                    },
+                    "description": "This SOP describes a recipe how to make chocolate chip cookies.",
+                    "uri": "",
+                    "version": "",
+                    "parameters": [
+                        {
+                            "@id": "#parameter/643",
+                            "parameterName": {
+                                "annotationValue": "Chromatography instrument",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        },
+                        {
+                            "@id": "#parameter/644",
+                            "parameterName": {
+                                "annotationValue": "Column model",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        },
+                        {
+                            "@id": "#parameter/645",
+                            "parameterName": {
+                                "annotationValue": "Column type",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        }
+                    ],
+                    "components": [
+                        {
+                            "componentName": "",
+                            "componentType": {
+                                "annotationValue": "",
+                                "termSource": "",
+                                "termAccession": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "#protocol/3_47",
+                    "name": "Mass spectrometry",
+                    "protocolType": {
+                        "annotationValue": "Mass spectrometry",
+                        "termAccession": "",
+                        "termSource": ""
+                    },
+                    "description": "This SOP describes a recipe how to make chocolate chip cookies.",
+                    "uri": "",
+                    "version": "",
+                    "parameters": [],
+                    "components": [
+                        {
+                            "componentName": "",
+                            "componentType": {
+                                "annotationValue": "",
+                                "termSource": "",
+                                "termAccession": ""
+                            }
+                        }
+                    ]
+                }
+            ],
+            "processSequence": [
+                {
+                    "@id": "#process/sample_collection/210",
+                    "name": "",
+                    "executesProtocol": {
+                        "@id": "#protocol/3_24"
+                    },
+                    "parameterValues": [],
+                    "performer": "",
+                    "date": "",
+                    "previousProcess": {},
+                    "nextProcess": {},
+                    "inputs": [
+                        {
+                            "@id": "#source/209"
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "@id": "#sample/210"
+                        }
+                    ]
+                },
+                {
+                    "@id": "#process/sample_collection/211",
+                    "name": "",
+                    "executesProtocol": {
+                        "@id": "#protocol/3_24"
+                    },
+                    "parameterValues": [],
+                    "performer": "",
+                    "date": "",
+                    "previousProcess": {},
+                    "nextProcess": {},
+                    "inputs": [
+                        {
+                            "@id": "#source/209"
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "@id": "#sample/211"
+                        }
+                    ]
+                },
+                {
+                    "@id": "#process/sample_collection/212",
+                    "name": "",
+                    "executesProtocol": {
+                        "@id": "#protocol/3_24"
+                    },
+                    "parameterValues": [],
+                    "performer": "",
+                    "date": "",
+                    "previousProcess": {},
+                    "nextProcess": {},
+                    "inputs": [
+                        {
+                            "@id": "#source/209"
+                        }
+                    ],
+                    "outputs": [
+                        {
+                            "@id": "#sample/212"
+                        }
+                    ]
+                }
+            ],
+            "assays": [
+                {
+                    "@id": "#assay/39_40_41",
+                    "filename": "a_a_assays.txt.txt",
+                    "measurementType": {
+                        "annotationValue": "",
+                        "termSource": "",
+                        "termAccession": ""
+                    },
+                    "technologyType": {
+                        "annotationValue": "",
+                        "termSource": "",
+                        "termAccession": ""
+                    },
+                    "comments": [
+                        {
+                            "@id": "#assay_comment/39_40_41",
+                            "name": "linked_assays",
+                            "value": "[{\"id\":39,\"title\":\"First Assay for genome sequencing\"},{\"id\":40,\"title\":\"Library\"},{\"id\":41,\"title\":\"DNA sequencing\"}]"
+                        }
+                    ],
+                    "technologyPlatform": "",
+                    "characteristicCategories": [
+                        {
+                            "@id": "#characteristic_category/Material_type_589",
+                            "characteristicType": {
+                                "annotationValue": "Material type",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        },
+                        {
+                            "@id": "#characteristic_category/title_593",
+                            "characteristicType": {
+                                "annotationValue": "title",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        },
+                        {
+                            "@id": "#characteristic_category/accession_603",
+                            "characteristicType": {
+                                "annotationValue": "accession",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        },
+                        {
+                            "@id": "#characteristic_category/submission_date_604",
+                            "characteristicType": {
+                                "annotationValue": "submission date",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        },
+                        {
+                            "@id": "#characteristic_category/status_605",
+                            "characteristicType": {
+                                "annotationValue": "status",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        }
+                    ],
+                    "materials": {
+                        "samples": [
+                            {
+                                "@id": "#sample/210"
+                            }
+                        ],
+                        "otherMaterials": [
+                            {
+                                "@id": "#other_material/213",
+                                "name": "liver 1A_DNA",
+                                "type": "Extract Name",
+                                "characteristics": [
+                                    {
+                                        "category": {
+                                            "@id": "#characteristic_category/Material_type_589"
+                                        },
+                                        "value": {
+                                            "annotationValue": "DNA",
+                                            "termSource": "",
+                                            "termAccession": ""
+                                        },
+                                        "unit": {
+                                            "termSource": "",
+                                            "termAccession": "",
+                                            "comments": []
+                                        }
+                                    }
+                                ],
+                                "derivesFrom": [
+                                    {
+                                        "@id": "#sample/210"
+                                    }
+                                ]
+                            },
+                            {
+                                "@id": "#other_material/214",
+                                "name": "liver 1A_DNA_Lib",
+                                "type": "library_name",
+                                "characteristics": [
+                                    {
+                                        "category": {
+                                            "@id": "#characteristic_category/title_593"
+                                        },
+                                        "value": {
+                                            "annotationValue": "liver 1A_DNA_Lib",
+                                            "termSource": "",
+                                            "termAccession": ""
+                                        },
+                                        "unit": {
+                                            "termSource": "",
+                                            "termAccession": "",
+                                            "comments": []
+                                        }
+                                    },
+                                    {
+                                        "category": {
+                                            "@id": "#characteristic_category/accession_603"
+                                        },
+                                        "value": {
+                                            "annotationValue": "",
+                                            "termSource": "",
+                                            "termAccession": ""
+                                        },
+                                        "unit": {
+                                            "termSource": "",
+                                            "termAccession": "",
+                                            "comments": []
+                                        }
+                                    },
+                                    {
+                                        "category": {
+                                            "@id": "#characteristic_category/submission_date_604"
+                                        },
+                                        "value": {
+                                            "annotationValue": "",
+                                            "termSource": "",
+                                            "termAccession": ""
+                                        },
+                                        "unit": {
+                                            "termSource": "",
+                                            "termAccession": "",
+                                            "comments": []
+                                        }
+                                    },
+                                    {
+                                        "category": {
+                                            "@id": "#characteristic_category/status_605"
+                                        },
+                                        "value": {
+                                            "annotationValue": "",
+                                            "termSource": "",
+                                            "termAccession": ""
+                                        },
+                                        "unit": {
+                                            "termSource": "",
+                                            "termAccession": "",
+                                            "comments": []
+                                        }
+                                    }
+                                ],
+                                "derivesFrom": [
+                                    {
+                                        "@id": "#other_material/213"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "processSequence": [
+                        {
+                            "@id": "#process/nucleic_acid_extraction/213",
+                            "name": "",
+                            "executesProtocol": {
+                                "@id": "#protocol/3_39"
+                            },
+                            "parameterValues": [],
+                            "performer": "",
+                            "date": "",
+                            "previousProcess": {
+                                "@id": "#process/sample_collection/213"
+                            },
+                            "nextProcess": {
+                                "@id": "#process/library_construction/213"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#sample/210"
+                                }
+                            ],
+                            "outputs": [
+                                {
+                                    "@id": "#sample/213"
+                                }
+                            ]
+                        },
+                        {
+                            "@id": "#process/library_construction/214",
+                            "name": "",
+                            "executesProtocol": {
+                                "@id": "#protocol/3_40"
+                            },
+                            "parameterValues": [
+                                {
+                                    "category": {
+                                        "@id": "#parameter/592"
+                                    },
+                                    "value": {
+                                        "annotationValue": "",
+                                        "termSource": "",
+                                        "termAccession": ""
+                                    },
+                                    "unit": {
+                                        "termSource": "",
+                                        "termAccession": "",
+                                        "comments": []
+                                    }
+                                },
+                                {
+                                    "category": {
+                                        "@id": "#parameter/594"
+                                    },
+                                    "value": {
+                                        "annotationValue": "",
+                                        "termSource": "",
+                                        "termAccession": ""
+                                    },
+                                    "unit": {
+                                        "termSource": "",
+                                        "termAccession": "",
+                                        "comments": []
+                                    }
+                                },
+                                {
+                                    "category": {
+                                        "@id": "#parameter/596"
+                                    },
+                                    "value": {
+                                        "annotationValue": "GENOMIC",
+                                        "termSource": "",
+                                        "termAccession": ""
+                                    },
+                                    "unit": {
+                                        "termSource": "",
+                                        "termAccession": "",
+                                        "comments": []
+                                    }
+                                },
+                                {
+                                    "category": {
+                                        "@id": "#parameter/597"
+                                    },
+                                    "value": {
+                                        "annotationValue": "WGS",
+                                        "termSource": "",
+                                        "termAccession": ""
+                                    },
+                                    "unit": {
+                                        "termSource": "",
+                                        "termAccession": "",
+                                        "comments": []
+                                    }
+                                },
+                                {
+                                    "category": {
+                                        "@id": "#parameter/598"
+                                    },
+                                    "value": {
+                                        "annotationValue": "RANDOM",
+                                        "termSource": "",
+                                        "termAccession": ""
+                                    },
+                                    "unit": {
+                                        "termSource": "",
+                                        "termAccession": "",
+                                        "comments": []
+                                    }
+                                },
+                                {
+                                    "category": {
+                                        "@id": "#parameter/599"
+                                    },
+                                    "value": {
+                                        "annotationValue": "SINGLE",
+                                        "termSource": "",
+                                        "termAccession": ""
+                                    },
+                                    "unit": {
+                                        "termSource": "",
+                                        "termAccession": "",
+                                        "comments": []
+                                    }
+                                },
+                                {
+                                    "category": {
+                                        "@id": "#parameter/600"
+                                    },
+                                    "value": {
+                                        "annotationValue": "",
+                                        "termSource": "",
+                                        "termAccession": ""
+                                    },
+                                    "unit": {
+                                        "termSource": "",
+                                        "termAccession": "",
+                                        "comments": []
+                                    }
+                                },
+                                {
+                                    "category": {
+                                        "@id": "#parameter/601"
+                                    },
+                                    "value": {
+                                        "annotationValue": "Illumina",
+                                        "termSource": "",
+                                        "termAccession": ""
+                                    },
+                                    "unit": {
+                                        "termSource": "",
+                                        "termAccession": "",
+                                        "comments": []
+                                    }
+                                },
+                                {
+                                    "category": {
+                                        "@id": "#parameter/602"
+                                    },
+                                    "value": {
+                                        "annotationValue": "454 GS",
+                                        "termSource": "",
+                                        "termAccession": ""
+                                    },
+                                    "unit": {
+                                        "termSource": "",
+                                        "termAccession": "",
+                                        "comments": []
+                                    }
+                                }
+                            ],
+                            "performer": "",
+                            "date": "",
+                            "previousProcess": {
+                                "@id": "#process/nucleic_acid_extraction/214"
+                            },
+                            "nextProcess": {
+                                "@id": "#process/nucleic_acid_sequencing/214"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#other_material/213"
+                                }
+                            ],
+                            "outputs": [
+                                {
+                                    "@id": "#sample/214"
+                                }
+                            ]
+                        },
+                        {
+                            "@id": "#process/nucleic_acid_sequencing/215",
+                            "name": "",
+                            "executesProtocol": {
+                                "@id": "#protocol/3_41"
+                            },
+                            "parameterValues": [
+                                {
+                                    "category": {
+                                        "@id": "#parameter/608"
+                                    },
+                                    "value": {
+                                        "annotationValue": " 454 GS",
+                                        "termSource": "",
+                                        "termAccession": ""
+                                    },
+                                    "unit": {
+                                        "termSource": "",
+                                        "termAccession": "",
+                                        "comments": []
+                                    }
+                                }
+                            ],
+                            "performer": "",
+                            "date": "",
+                            "previousProcess": {
+                                "@id": "#process/library_construction/215"
+                            },
+                            "nextProcess": {},
+                            "inputs": [
+                                {
+                                    "@id": "#other_material/214"
+                                }
+                            ],
+                            "outputs": [
+                                {
+                                    "@id": "#sample/215"
+                                }
+                            ]
+                        }
+                    ],
+                    "dataFiles": [
+                        {
+                            "@id": "#data_file/215",
+                            "name": "liver 1A_DNA_Lib_fastq",
+                            "type": "Raw Data File",
+                            "comments": [
+                                {
+                                    "name": "file type",
+                                    "value": "fastq"
+                                },
+                                {
+                                    "name": "file checksum",
+                                    "value": ""
+                                },
+                                {
+                                    "name": "submission date",
+                                    "value": ""
+                                },
+                                {
+                                    "name": "status",
+                                    "value": ""
+                                },
+                                {
+                                    "name": "accession",
+                                    "value": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "unitCategories": []
+                },
+                {
+                    "@id": "#assay/42_43_44",
+                    "filename": "a_a_assays.txt.txt",
+                    "measurementType": {
+                        "annotationValue": "",
+                        "termSource": "",
+                        "termAccession": ""
+                    },
+                    "technologyType": {
+                        "annotationValue": "",
+                        "termSource": "",
+                        "termAccession": ""
+                    },
+                    "comments": [
+                        {
+                            "@id": "#assay_comment/42_43_44",
+                            "name": "linked_assays",
+                            "value": "[{\"id\":42,\"title\":\"First Assay for functional genomics\"},{\"id\":43,\"title\":\"Library prep\"},{\"id\":44,\"title\":\"RNA sequencing\"}]"
+                        }
+                    ],
+                    "technologyPlatform": "",
+                    "characteristicCategories": [
+                        {
+                            "@id": "#characteristic_category/Material_type_618",
+                            "characteristicType": {
+                                "annotationValue": "Material type",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        }
+                    ],
+                    "materials": {
+                        "samples": [
+                            {
+                                "@id": "#sample/211"
+                            }
+                        ],
+                        "otherMaterials": [
+                            {
+                                "@id": "#other_material/216",
+                                "name": "liver 1B_RNA",
+                                "type": "Extract Name",
+                                "characteristics": [
+                                    {
+                                        "category": {
+                                            "@id": "#characteristic_category/Material_type_618"
+                                        },
+                                        "value": {
+                                            "annotationValue": "RNA",
+                                            "termSource": "",
+                                            "termAccession": ""
+                                        },
+                                        "unit": {
+                                            "termSource": "",
+                                            "termAccession": "",
+                                            "comments": []
+                                        }
+                                    }
+                                ],
+                                "derivesFrom": [
+                                    {
+                                        "@id": "#sample/211"
+                                    }
+                                ]
+                            },
+                            {
+                                "@id": "#other_material/217",
+                                "name": "liver 1B_RNA_Lib",
+                                "type": "library name",
+                                "characteristics": [],
+                                "derivesFrom": [
+                                    {
+                                        "@id": "#other_material/216"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "processSequence": [
+                        {
+                            "@id": "#process/nucleic_acid_extraction/216",
+                            "name": "",
+                            "executesProtocol": {
+                                "@id": "#protocol/3_42"
+                            },
+                            "parameterValues": [],
+                            "performer": "",
+                            "date": "",
+                            "previousProcess": {
+                                "@id": "#process/sample_collection/216"
+                            },
+                            "nextProcess": {
+                                "@id": "#process/library_construction/216"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#sample/211"
+                                }
+                            ],
+                            "outputs": [
+                                {
+                                    "@id": "#sample/216"
+                                }
+                            ]
+                        },
+                        {
+                            "@id": "#process/library_construction/217",
+                            "name": "",
+                            "executesProtocol": {
+                                "@id": "#protocol/3_43"
+                            },
+                            "parameterValues": [
+                                {
+                                    "category": {
+                                        "@id": "#parameter/621"
+                                    },
+                                    "value": {
+                                        "annotationValue": "TRANSCRIPTOMIC",
+                                        "termSource": "",
+                                        "termAccession": ""
+                                    },
+                                    "unit": {
+                                        "termSource": "",
+                                        "termAccession": "",
+                                        "comments": []
+                                    }
+                                },
+                                {
+                                    "category": {
+                                        "@id": "#parameter/622"
+                                    },
+                                    "value": {
+                                        "annotationValue": "RNA-Seq",
+                                        "termSource": "",
+                                        "termAccession": ""
+                                    },
+                                    "unit": {
+                                        "termSource": "",
+                                        "termAccession": "",
+                                        "comments": []
+                                    }
+                                },
+                                {
+                                    "category": {
+                                        "@id": "#parameter/623"
+                                    },
+                                    "value": {
+                                        "annotationValue": "RANDOM PCR",
+                                        "termSource": "",
+                                        "termAccession": ""
+                                    },
+                                    "unit": {
+                                        "termSource": "",
+                                        "termAccession": "",
+                                        "comments": []
+                                    }
+                                },
+                                {
+                                    "category": {
+                                        "@id": "#parameter/624"
+                                    },
+                                    "value": {
+                                        "annotationValue": "SINGLE",
+                                        "termSource": "",
+                                        "termAccession": ""
+                                    },
+                                    "unit": {
+                                        "termSource": "",
+                                        "termAccession": "",
+                                        "comments": []
+                                    }
+                                },
+                                {
+                                    "category": {
+                                        "@id": "#parameter/625"
+                                    },
+                                    "value": {
+                                        "annotationValue": "",
+                                        "termSource": "",
+                                        "termAccession": ""
+                                    },
+                                    "unit": {
+                                        "termSource": "",
+                                        "termAccession": "",
+                                        "comments": []
+                                    }
+                                },
+                                {
+                                    "category": {
+                                        "@id": "#parameter/626"
+                                    },
+                                    "value": {
+                                        "annotationValue": "",
+                                        "termSource": "",
+                                        "termAccession": ""
+                                    },
+                                    "unit": {
+                                        "termSource": "",
+                                        "termAccession": "",
+                                        "comments": []
+                                    }
+                                }
+                            ],
+                            "performer": "",
+                            "date": "",
+                            "previousProcess": {
+                                "@id": "#process/nucleic_acid_extraction/217"
+                            },
+                            "nextProcess": {
+                                "@id": "#process/nucleic_acid_sequencing/217"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#other_material/216"
+                                }
+                            ],
+                            "outputs": [
+                                {
+                                    "@id": "#sample/217"
+                                }
+                            ]
+                        },
+                        {
+                            "@id": "#process/nucleic_acid_sequencing/218",
+                            "name": "",
+                            "executesProtocol": {
+                                "@id": "#protocol/3_44"
+                            },
+                            "parameterValues": [
+                                {
+                                    "category": {
+                                        "@id": "#parameter/630"
+                                    },
+                                    "value": {
+                                        "annotationValue": "454 GS",
+                                        "termSource": "",
+                                        "termAccession": ""
+                                    },
+                                    "unit": {
+                                        "termSource": "",
+                                        "termAccession": "",
+                                        "comments": []
+                                    }
+                                },
+                                {
+                                    "category": {
+                                        "@id": "#parameter/631"
+                                    },
+                                    "value": {
+                                        "annotationValue": "",
+                                        "termSource": "",
+                                        "termAccession": ""
+                                    },
+                                    "unit": {
+                                        "termSource": "",
+                                        "termAccession": "",
+                                        "comments": []
+                                    }
+                                },
+                                {
+                                    "category": {
+                                        "@id": "#parameter/632"
+                                    },
+                                    "value": {
+                                        "annotationValue": "",
+                                        "termSource": "",
+                                        "termAccession": ""
+                                    },
+                                    "unit": {
+                                        "termSource": "",
+                                        "termAccession": "",
+                                        "comments": []
+                                    }
+                                }
+                            ],
+                            "performer": "",
+                            "date": "",
+                            "previousProcess": {
+                                "@id": "#process/library_construction/218"
+                            },
+                            "nextProcess": {},
+                            "inputs": [
+                                {
+                                    "@id": "#other_material/217"
+                                }
+                            ],
+                            "outputs": [
+                                {
+                                    "@id": "#sample/218"
+                                }
+                            ]
+                        }
+                    ],
+                    "dataFiles": [
+                        {
+                            "@id": "#data_file/218",
+                            "name": "liver 1B_RNA_Lib_fastq",
+                            "type": "Raw Data File",
+                            "comments": [
+                                {
+                                    "name": "Technology type",
+                                    "value": ""
+                                },
+                                {
+                                    "name": "Assay Name",
+                                    "value": "liver 1B_RNA_Lib_fastq"
+                                }
+                            ]
+                        }
+                    ],
+                    "unitCategories": []
+                },
+                {
+                    "@id": "#assay/45_46_47",
+                    "filename": "a_a_assays.txt.txt",
+                    "measurementType": {
+                        "annotationValue": "",
+                        "termSource": "",
+                        "termAccession": ""
+                    },
+                    "technologyType": {
+                        "annotationValue": "",
+                        "termSource": "",
+                        "termAccession": ""
+                    },
+                    "comments": [
+                        {
+                            "@id": "#assay_comment/45_46_47",
+                            "name": "linked_assays",
+                            "value": "[{\"id\":45,\"title\":\"First Assay for Metabolomics\"},{\"id\":46,\"title\":\"Chromatography\"},{\"id\":47,\"title\":\"Mass spectrometry\"}]"
+                        }
+                    ],
+                    "technologyPlatform": "",
+                    "characteristicCategories": [
+                        {
+                            "@id": "#characteristic_category/Material_type_640",
+                            "characteristicType": {
+                                "annotationValue": "Material type",
+                                "termAccession": "",
+                                "termSource": ""
+                            }
+                        }
+                    ],
+                    "materials": {
+                        "samples": [
+                            {
+                                "@id": "#sample/212"
+                            }
+                        ],
+                        "otherMaterials": [
+                            {
+                                "@id": "#other_material/220",
+                                "name": "liver 1C_Metabo",
+                                "type": "Extract Name",
+                                "characteristics": [
+                                    {
+                                        "category": {
+                                            "@id": "#characteristic_category/Material_type_640"
+                                        },
+                                        "value": {
+                                            "annotationValue": "",
+                                            "termSource": "",
+                                            "termAccession": ""
+                                        },
+                                        "unit": {
+                                            "termSource": "",
+                                            "termAccession": "",
+                                            "comments": []
+                                        }
+                                    }
+                                ],
+                                "derivesFrom": [
+                                    {
+                                        "@id": "#sample/212"
+                                    }
+                                ]
+                            },
+                            {
+                                "@id": "#other_material/221",
+                                "name": "liver 1C_Metabo_LC",
+                                "type": "chromatogram Name",
+                                "characteristics": [],
+                                "derivesFrom": [
+                                    {
+                                        "@id": "#other_material/220"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "processSequence": [
+                        {
+                            "@id": "#process/Extraction/220",
+                            "name": "",
+                            "executesProtocol": {
+                                "@id": "#protocol/3_45"
+                            },
+                            "parameterValues": [
+                                {
+                                    "category": {
+                                        "@id": "#parameter/638"
+                                    },
+                                    "value": {
+                                        "annotationValue": "",
+                                        "termSource": "",
+                                        "termAccession": ""
+                                    },
+                                    "unit": {
+                                        "termSource": "",
+                                        "termAccession": "",
+                                        "comments": []
+                                    }
+                                }
+                            ],
+                            "performer": "",
+                            "date": "",
+                            "previousProcess": {
+                                "@id": "#process/sample_collection/220"
+                            },
+                            "nextProcess": {
+                                "@id": "#process/Chromatography/220"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#sample/212"
+                                }
+                            ],
+                            "outputs": [
+                                {
+                                    "@id": "#sample/220"
+                                }
+                            ]
+                        },
+                        {
+                            "@id": "#process/Chromatography/221",
+                            "name": "",
+                            "executesProtocol": {
+                                "@id": "#protocol/3_46"
+                            },
+                            "parameterValues": [
+                                {
+                                    "category": {
+                                        "@id": "#parameter/643"
+                                    },
+                                    "value": {
+                                        "annotationValue": "Thermo Scientific Vanquish Duo UHPLC system",
+                                        "termSource": "",
+                                        "termAccession": ""
+                                    },
+                                    "unit": {
+                                        "termSource": "",
+                                        "termAccession": "",
+                                        "comments": []
+                                    }
+                                },
+                                {
+                                    "category": {
+                                        "@id": "#parameter/644"
+                                    },
+                                    "value": {
+                                        "annotationValue": "ZIC-pHILIC (5 µm, 2.1 mm x 150 mm; Merck Sequant)",
+                                        "termSource": "",
+                                        "termAccession": ""
+                                    },
+                                    "unit": {
+                                        "termSource": "",
+                                        "termAccession": "",
+                                        "comments": []
+                                    }
+                                },
+                                {
+                                    "category": {
+                                        "@id": "#parameter/645"
+                                    },
+                                    "value": {
+                                        "annotationValue": "HILIC",
+                                        "termSource": "",
+                                        "termAccession": ""
+                                    },
+                                    "unit": {
+                                        "termSource": "",
+                                        "termAccession": "",
+                                        "comments": []
+                                    }
+                                }
+                            ],
+                            "performer": "",
+                            "date": "",
+                            "previousProcess": {
+                                "@id": "#process/Extraction/221"
+                            },
+                            "nextProcess": {
+                                "@id": "#process/Mass_spectrometry/221"
+                            },
+                            "inputs": [
+                                {
+                                    "@id": "#other_material/220"
+                                }
+                            ],
+                            "outputs": [
+                                {
+                                    "@id": "#sample/221"
+                                }
+                            ]
+                        },
+                        {
+                            "@id": "#process/Mass_spectrometry/222",
+                            "name": "",
+                            "executesProtocol": {
+                                "@id": "#protocol/3_47"
+                            },
+                            "parameterValues": [],
+                            "performer": "",
+                            "date": "",
+                            "previousProcess": {
+                                "@id": "#process/Chromatography/222"
+                            },
+                            "nextProcess": {},
+                            "inputs": [
+                                {
+                                    "@id": "#other_material/221"
+                                }
+                            ],
+                            "outputs": [
+                                {
+                                    "@id": "#sample/222"
+                                }
+                            ]
+                        }
+                    ],
+                    "dataFiles": [
+                        {
+                            "@id": "#data_file/222",
+                            "name": "liver 1C_Metabo_LC_MS.raw",
+                            "type": "Raw Spectral Data File",
+                            "comments": [
+                                {
+                                    "name": "Scan polarity",
+                                    "value": "alternating"
+                                },
+                                {
+                                    "name": "Scan m/z range",
+                                    "value": "75-1000"
+                                },
+                                {
+                                    "name": "Instrument",
+                                    "value": "Thermo Scientific Q Exactive HF"
+                                },
+                                {
+                                    "name": "Ion source",
+                                    "value": "electrospray ionization"
+                                },
+                                {
+                                    "name": "MS Name",
+                                    "value": "liver 1C_Metabo_LC_MS"
+                                },
+                                {
+                                    "name": "Mass analyser",
+                                    "value": "orbitrap"
+                                }
+                            ]
+                        }
+                    ],
+                    "unitCategories": []
+                }
+            ],
+            "factors": [],
+            "unitCategories": []
+        }
+    ]
+}
